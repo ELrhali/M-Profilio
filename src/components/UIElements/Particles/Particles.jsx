@@ -25,7 +25,7 @@ const Particles = () => {
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 3,
             },
           },
         },

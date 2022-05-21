@@ -7,7 +7,6 @@ import MainNavigation from '../../components/Navigation/MainNavigation/MainNavig
 const BaseLayout = ({ children }) => {
   return (
     <div className={s.layout}>
-      <Particles />
 
       <Header>
         <MainNavigation />

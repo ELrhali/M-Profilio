@@ -59,19 +59,20 @@ export const LIGHT_THEME_PARTICLES = {
 
 export const DARK_THEME_PARTICLES = {
   number: {
-    value: 160,
+    value: 100,
     density: {
-      enable: true,
-      value_area: 1500,
+      enable: false,
+      value_area: 800,
     },
+    
   },
   line_linked: {
-    enable: false,
-    opacity: 0.03,
+    enable: true,
+    opacity: 0.13,
   },
   move: {
-    direction: 'right',
-    speed: 0.05,
+    direction: 'none',
+    speed: 0.15,
   },
   size: {
     value: 1,
@@ -80,7 +81,7 @@ export const DARK_THEME_PARTICLES = {
     anim: {
       enable: true,
       speed: 1,
-      opacity_min: 0.05,
+      opacity_min: 0.15,
     },
   },
 };
